@@ -7,6 +7,8 @@ In deze README file staat alles wat er nodig is om dezelfde stappen te zetten al
 De onderzoeksvraag van het project luidt als volgt: "Kan er met beperkte kennis en middelen een robothand ontwikkeld worden aan de hand van de ontwerpcyclus?"
 Bij het lezen van deze onderzoeksvraag komen er direct twee vragen naar boven. De eerste vraag is: "Wat moet ik me voorstellen bij zo'n robothand"? 
 
+De inspiratie van het bouwen van een robothand komt van Jens. Hij mist zijn linkerhand vanaf ongeveer zijn pols. Hij vroeg ooit een aantal jaren terug: "Kunnen jullie niet iets van een hand voor mij maken?" Deze opmerking zijn we nooit vergeten, en toen we een onderwerp voor ons PWS moesten verzinnen, hoefden we niet lang na te denken. We wilden graag een robotische arm maken die een deel van de functionaliteit van een menselijke arm had. 
 
+Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt het tweede deel van de vraag om de hoek kijken: "Wat is de ontwerpcyclus?"
 
-De tweede vraag is: "Wat is de ontwerpcyclus?"
+De ontwerpcyclus is eigenlijk een aanpakmethode 
