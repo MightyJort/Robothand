@@ -11,4 +11,5 @@ De inspiratie van het bouwen van een robothand komt van Jens. Hij mist zijn link
 
 Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt het tweede deel van de vraag om de hoek kijken: "Wat is de ontwerpcyclus?"
 
-De ontwerpcyclus is eigenlijk een aanpakmethode 
+De ontwerpcyclus is een aanpakmethode; een stuk gereedschap waarmee je een groot project tot kleinere, haalbare stukjes hakt. Het is een enorm krachtige methode, en we raden ieddereen aan om het te gebruiken. Het zit namelijk zo: 
+Bij de ontwerpcyclus onderga je telkens opnieuw 
