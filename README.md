@@ -77,3 +77,14 @@ Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakke
 
 <h1>Hoe ver zijn we gekomen?</h1>
 asdasdf
+
+Bronnen:
+Bij ons onderzoek naar de mogelijkheden voor het designen is er gebruikt gemaakt van verschillende bronnen op het wereldwijde web. Deze zijn ingezet als volgt: ter inspiratie, ter informatie zoals bijvoorbeeld bepaalde code die noodzakelijk is voor het correct kunnen besturen van sensoren, natuurlijk als informatie en tot slot een expert op het gebied van PCB design. Bij deze laatst genoemde bron beginnend vergt dit mogelijk wat toelichting. Bij het gehele proces van dit design werd er geconcludeerd dat gezien de geringe ruimte in het hele ontwerp er zo optimaal  mogelijk gebruik moest worden gemaakt van de beschikbare ruimte. Gezien het feit dat kabels en sensoren vaak grote hoeveelheden aan ruimte innemen was de keuze tot het zelf maken van een PCB een logische keuze. Bij dit design heeft VWO 5 leerling Yousif Al Fraji ontzettend geholpen zoals ook te lezen is geweest in het dankwoord. Tevens wordt Al Fraji wederom genoemd als bron vanwege zijn goede en fijne hulp bij dit zeer complexe onderdeel van het design. Daarnaast zijn er zoals reeds genoemd verschillende bronnen van nut geweest voor het daadwerkelijke eindproduct van dit profielwerkstuk.
+
+Bijlagen:
+Tijdens dit onderzoek zijn er verschillende documenten gecreëerd omtrent planning, logboek, partslist en anderen documenten. De lijst hieronder betreft documenten die van nut zijn geweest bij het verloop van dit project: 
+Lijst met gebruikte onderdelen:
+https://docs.google.com/spreadsheets/d/10QRhJqZB1pEGDb7owYDHSu0jurNjSL3_3ehxey0RWvA/edit#gid= 
+Logboek ter tijdsindicatie van het gehele project inclusief verslaggeving:
+
+
