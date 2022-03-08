@@ -80,7 +80,10 @@ Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakke
 
 
 <h1>Hoe ver zijn we gekomen?</h1>
-asdasdf
+De hand functioneerd niet zo goed als een handprothese waar een groep ingenieur al jaren aan werkt, maar toch vinden wij dat we al een heel eind zijn gekomen. We hebben het voor elkaar gekregen om vier erg goed werkende vingers vast te krijgen, met controle over de verschillende kootjes. Dit vinden wij al erg indrukwekkend voor middelbare scholieren. Ook hebben wij de EMG sensoren werkend gekregen door ons eigen PCB te ontwerpen. Dat is ook niet niks.
+
+Maar werkt de hand goed genoeg om in het dagelijks leven te gebruiken? 
+Nee, zeker niet. Maar dat doel was in de paar maanden die we hadden ook niet goed haalbaar. 
 
 <h1>Bronnen:</h1>
 Bij ons onderzoek naar de mogelijkheden voor het designen is er gebruikt gemaakt van verschillende bronnen op het wereldwijde web. Deze zijn ingezet als volgt: ter inspiratie, ter informatie zoals bijvoorbeeld bepaalde code die noodzakelijk is voor het correct kunnen besturen van sensoren, natuurlijk als informatie en tot slot een expert op het gebied van PCB design. Bij deze laatst genoemde bron beginnend vergt dit mogelijk wat toelichting. Bij het gehele proces van dit design werd er geconcludeerd dat gezien de geringe ruimte in het hele ontwerp er zo optimaal  mogelijk gebruik moest worden gemaakt van de beschikbare ruimte. Gezien het feit dat kabels en sensoren vaak grote hoeveelheden aan ruimte innemen was de keuze tot het zelf maken van een PCB een logische keuze. Bij dit design heeft VWO 5 leerling Yousif Al Fraji ontzettend geholpen zoals ook te lezen is geweest in het dankwoord. Tevens wordt Al Fraji wederom genoemd als bron vanwege zijn goede en fijne hulp bij dit zeer complexe onderdeel van het design. Daarnaast zijn er zoals reeds genoemd verschillende bronnen van nut geweest voor het daadwerkelijke eindproduct van dit profielwerkstuk.
