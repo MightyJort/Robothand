@@ -10,14 +10,14 @@
 
 Welkom!
 Wij zijn Jort en Pieter, en in deze github repository staat ons profielwerkstuk beschreven. Het doel van dit project is om de eerste ontwikkelstappen te maken in het bouwen van een armprothese.
-In deze README file staat alles wat er nodig is om dezelfde stappen te zetten als wij de afgelopen maanden gezet hebben, alleen dan in een veel kortere tijd. We beschrijven alle dingen die we geleerd hebben, en problemen die we overwonnen hebben. 
+In deze README file staat alles wat er nodig is om dezelfde stappen te zetten als wij de afgelopen maanden gezet hebben, alleen dan in een veel kortere tijd. We beschrijven alle methodes die we gebruikt hebben, dingen die we geleerd hebben, en problemen die we overwonnen hebben. 
 
   <h2>Het idee, de onderzoeksvraag en de ontwerpcyclus</h2>
   
 De onderzoeksvraag van het project luidt als volgt: "Kan er met beperkte kennis en middelen een robothand ontwikkeld worden aan de hand van de ontwerpcyclus?"
-Bij het lezen van deze onderzoeksvraag komen er direct twee vragen naar boven. De eerste vraag is: "Wat moet ik me voorstellen bij zo'n robothand"? 
+Bij het lezen van deze onderzoeksvraag komen er direct twee vragen naar boven. De eerste vraag is waarschijnlijk: "Wat moet ik me voorstellen bij zo'n robothand"? 
 
-De inspiratie van het bouwen van een robothand komt van Jens. Hij mist zijn linkerhand vanaf ongeveer zijn pols. Hij vroeg ooit een aantal jaren terug: "Kunnen jullie niet iets van een hand voor mij maken?" Deze opmerking zijn we nooit vergeten, en toen we een onderwerp voor ons PWS moesten verzinnen, hoefden we niet lang na te denken. We wilden graag een robotische arm maken die een deel van de functionaliteit van een menselijke arm had. 
+De inspiratie van het bouwen van een robothand komt van Jens. Hij zit bij ons op school en mist zijn linkerhand vanaf ongeveer zijn pols. Hij vroeg ooit een aantal jaren terug: "Kunnen jullie niet iets van een hand voor mij maken?" Deze opmerking zijn we nooit vergeten, en toen we een onderwerp voor ons PWS moesten verzinnen, hoefden we niet lang na te denken. We wilden graag een robotische arm maken die een deel van de functionaliteit van een menselijke arm had. 
 
 Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt de tweede vraag om de hoek kijken: "Wat is de ontwerpcyclus?"
 
@@ -35,9 +35,10 @@ Deze methode van werken hebben wij van onze begeleider tijdens een module NLT ee
 
 De eerste stap die we gezet hebben aan ons PWS is het opstellen van een eisenlijst, wat zou een armprothese allemaal moeten kunnen? Voor ons was dat antwoord vrij snel duidelijk: het moet zo veel mogelijk functies van een menselijke arm moeten kunnen overnemen. 
 
-Dan begin je om je heen te kijken. Wat doe ik zoal met mijn handen? 
+Dan begin je om je heen te kijken. Wat doe ik zoal met mijn handen? Tillen, typen, dingen vastpakken, ergens kriebelen enzovoorts. Teveel om allemaal op te noemen. Lang niet alles is haalbaar, biologische handen zijn zo ongelooflijk accuraat, snel, sterk en heel veel bewegingsvrijheid. Een prothese maken die goed genoeg is om bijvoorbeeld te typen of gitaar te kunnen spelen is (nu nog) technisch onhaalbaar. 
 
-
+Toen kwamen we met een haalbaar lijstje. We wilden bijvoorbeeld dat onze hand vijf beweegbare vingers heeft, met elk afzonderlijke vingerkootjes. En we vonden het belangrijk dat de hand robuust was, zodat hij tegen een stootje zou kunnen. 
+Een interessante eis zat hem ook in de aansturing van de hand. We wilden graag dat de gebruiken de hand kon bedienen, zonder een extern knopje of schakelaartje in te moeten drukken. 
 
 <h1>Het ontwerp</h1>
 
@@ -74,5 +75,5 @@ Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de robo
 Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakkelijk om dit te doen, want in KiCad staat precies hoe alles verbonden moest worden. Wel is het erg tijdrovend, en moet je goed opletten.
 
 
-
-
+<h1>Hoe ver zijn we gekomen?</h1>
+asdasdf
