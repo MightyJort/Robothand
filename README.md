@@ -3,7 +3,7 @@
 <afbeelding>
   
 
-<h1>inhoudsopgave</h1>
+<h1>Inhoudsopgave</h1>
 
 
 <h1>inleiding</h1>
