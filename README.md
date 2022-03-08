@@ -54,6 +54,8 @@ De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je e
 <h2>Van computermodel naar fysiek</h2>
 asdfasdfasf
 
+![image](https://user-images.githubusercontent.com/47349377/157282636-f4a6aedf-24b4-4b5e-a4a3-75590debda19.png)
+
 
 <h2>De aansturing</h2>
 De robothand wordt aangestuurd door ons zelfontworpen PCB, eerst is het hele schematic getekend in KiCad. Het meest opvallend is het opAmp circuit, dit circuit is nodig om de elektrische schokjes van je arm dusdanig te versterken dat het te meten valt. Dit is dus onze zelfgemaakt sensor. Het ontwerp van de sensor hebben we niet zelf bedacht, maar komt van het opensource project “openEMG”.
