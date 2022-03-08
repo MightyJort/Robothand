@@ -63,18 +63,14 @@ In het circuit zit ook een potentiometer, met deze variabele weerstand kan je de
 
  
 
- 
-
 Daarnaast is er ook een manier nodig om de arm van stroom te voorzien. We gebruiken een 3 cell LiPo batterij, dat betekent dat de batterij uit drie kleinere, in serie geschakelde batterijtjes bestaat van elk 3,7v. Het totale voltage van de batterij is dus 11,1v. Dit is alleen de spanning als de batterij leeg is. Als je de batterij helemaal oplaadt, dan wordt het voltage hoger. Tot rond de 12,6v. Dit zorgt voor een probleem, want een wisselende spanning is niet goed voor de componenten, sommige onderdelen zullen zelfs helemaal niet meer functioneren.
 
 Daarom maken wij gebruik van een zogeheten “buck-converter”, dit is een klein circuit die het wisselende voltage van de batterij omzet in een stabiele 5v. Met die 5v kunnen we de Arduino, servo en EMG-sensor stroom geven. De buck-converter is met blauw omcirkeld in de afbeelding. Zie de onderdelenlijst voor het model wat wij gebruikt hebben.  
 
  
-
 Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de robotarm. De microcontroller. Wij gebruiken een Arduino Nano, want we hebben al veel ervaring met arduino’s, en de Nano is perfect voor onze doeleinden. Naast de nano zit een OLED-schermpje en een RGB led, dit is handig voor debuggen en informatie geven.
 
  
-
 Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakkelijk om dit te doen, want in KiCad staat precies hoe alles verbonden moest worden. Wel is het erg tijdrovend, en moet je goed opletten.
 
 
