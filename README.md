@@ -19,7 +19,7 @@ Bij het lezen van deze onderzoeksvraag komen er direct twee vragen naar boven. D
 
 De inspiratie van het bouwen van een robothand komt van Jens. Hij mist zijn linkerhand vanaf ongeveer zijn pols. Hij vroeg ooit een aantal jaren terug: "Kunnen jullie niet iets van een hand voor mij maken?" Deze opmerking zijn we nooit vergeten, en toen we een onderwerp voor ons PWS moesten verzinnen, hoefden we niet lang na te denken. We wilden graag een robotische arm maken die een deel van de functionaliteit van een menselijke arm had. 
 
-Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt het tweede deel van de vraag om de hoek kijken: "Wat is de ontwerpcyclus?"
+Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt de tweede vraag om de hoek kijken: "Wat is de ontwerpcyclus?"
 
 De ontwerpcyclus is een aanpakmethode; een stuk gereedschap waarmee je een groot project tot kleinere, haalbare stukjes hakt. Het is een enorm krachtige methode, en we raden ieddereen aan om het te gebruiken. Het zit namelijk zo: 
 Bij de ontwerpcyclus onderga je telkens opnieuw dezelfde stappen, maar elke keer heb je weer meer kennis die je in de vorige ronde geleerd hebt. 
