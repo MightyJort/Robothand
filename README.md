@@ -31,4 +31,23 @@ Nu heb je een ontwerpcyclus afgelegd.
 Deze methode van werken hebben wij van onze begeleider tijdens een module NLT een aantal jaar terug gewerkt, en deze methode hebben we nu ook in ons PWS toegepast. Het is een erg fijne, doelgerichte manier van werken. We raden iedereen aan die aan een soortgelijk project wil gaan beginnen. 
 
 
-<h1>Heading1</h1>
+<h1>De eisen en het ontwerp</h1>
+
+De eerste stap die we gezet hebben aan ons PWS is het opstellen van een eisenlijst, wat zou een armprothese allemaal moeten kunnen? Voor ons was dat antwoord vrij snel duidelijk: het moet zo veel mogelijk functies van een menselijke arm moeten kunnen overnemen. 
+
+
+
+
+
+Het ontwerp van de hele hand is gemaakt in Autodesks Fusion 360. Het voordeel an het ontwerp eerst maken in de computer, en daarna pas in het echt, is dat je er heel veel fouten in de computer al uit kan halen. 
+
+Er bestaan natuurlijk heel veel everschillende CAD-programma's (Computer Aided Design), denk aan FreeCAD of tinkerCAD. Wij hebben ekozen voor Fusion 360 door de gratis education license, en geweldige collabration mogelijkheden. Je kan als team een project opzetten, en vervolgens kan iedereen in dat team gelijktijdig binnen hetzelfde project werken.
+Ook heeft Fusion hele goede integratie met Cura, dat is het programma wat wij gebruiken om onderdelen te 3d-printen. Met één druk op de knop kunnen we het ontwerp naar de 3d printer of lasersnijder sturen. 
+
+Het sterkste punt aan Fusion is misschien nog wel de mogelijkhneid om 'terug in de tijd' te gaan. Onderaan het programma staat een timeline, met die timeline kan je stappen die je eerder gedaan hebt heel gemakkelijk aanpassen. Kleine veranderingen maken aan het ontwerp is op die manier heel gemakkelijk. 
+
+De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd.  
+
+
+
+
