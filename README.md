@@ -31,7 +31,7 @@ Nu heb je een ontwerpcyclus afgelegd.
 Deze methode van werken hebben wij van onze begeleider tijdens een module NLT een aantal jaar terug gewerkt, en deze methode hebben we nu ook in ons PWS toegepast. Het is een erg fijne, doelgerichte manier van werken. We raden iedereen aan die aan een soortgelijk project wil gaan beginnen. 
 
 
-<h1>De eisen</h1>
+<h2>De eisen</h2>
 
 De eerste stap die we gezet hebben aan ons PWS is het opstellen van een eisenlijst, wat zou een armprothese allemaal moeten kunnen? Voor ons was dat antwoord vrij snel duidelijk: het moet zo veel mogelijk functies van een menselijke arm moeten kunnen overnemen. 
 
@@ -50,11 +50,11 @@ Het sterkste punt aan Fusion is misschien nog wel de mogelijkhneid om 'terug in 
 
 De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd.  
 
-<h1>Van computermodel naar fysiek</h1>
+<h2>Van computermodel naar fysiek</h2>
 asdfasdfasf
 
 
-<h1>De aansturing</h1>
+<h2>De aansturing</h2>
 De robothand wordt aangestuurd door ons zelfontworpen PCB, eerst is het hele schematic getekend in KiCad. Het meest opvallend is het opAmp circuit, dit circuit is nodig om de elektrische schokjes van je arm dusdanig te versterken dat het te meten valt. Dit is dus onze zelfgemaakt sensor. Het ontwerp van de sensor hebben we niet zelf bedacht, maar komt van het opensource project “openEMG”.
 
 De kern van deze sensor is de LM324N, dit is een chip die de stroomsterkte versterkt. Zo’n chip noem je een opAmp. Eigenlijk is deze chip niet één opAmp, maar wel vier. Het signaal wordt dus wel vier keer versterkt. Een opAmp heeft twee inputs, maar maar één input, dit komt doordat de opAmp alleen maar het verschil tussen de twee inputs versterkt. Dit moet op deze manier om storingen te voorkomen. De datastroom loopt in feite zoals de rode lijn in de afbeelding.
