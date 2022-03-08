@@ -55,7 +55,27 @@ asdfasdfasf
 
 
 <h1>De aansturing</h1>
-De robothand wordt aangestuurd door ons zelfontworpen PCB
+De robothand wordt aangestuurd door ons zelfontworpen PCB, eerst is het hele schematic getekend in KiCad. Het meest opvallend is het opAmp circuit, dit circuit is nodig om de elektrische schokjes van je arm dusdanig te versterken dat het te meten valt. Dit is dus onze zelfgemaakt sensor. Het ontwerp van de sensor hebben we niet zelf bedacht, maar komt van het opensource project “openEMG”.
+
+De kern van deze sensor is de LM324N, dit is een chip die de stroomsterkte versterkt. Zo’n chip noem je een opAmp. Eigenlijk is deze chip niet één opAmp, maar wel vier. Het signaal wordt dus wel vier keer versterkt. Een opAmp heeft twee inputs, maar maar één input, dit komt doordat de opAmp alleen maar het verschil tussen de twee inputs versterkt. Dit moet op deze manier om storingen te voorkomen. De datastroom loopt in feite zoals de rode lijn in de afbeelding.
+
+In het circuit zit ook een potentiometer, met deze variabele weerstand kan je de gevoeligheid van de sensor aanpassen. Dit noem je een voltage divider. Stroom kiest altijd de weg van de minste weerstand. Als je de weerstand van de potentiometer helemaal op 0 zit, zal dus alle stroom daardoorheen lopen. Het signaal wordt dan verder niet versterkt. Als je de potentiometer helemaal dicht draait, dan wordt de weerstand 100k Ohm. Nu zal alle stroom door de amplifier lopen, want dat is nu de weg van het minste weerstand.
+
+ 
+
+ 
+
+Daarnaast is er ook een manier nodig om de arm van stroom te voorzien. We gebruiken een 3 cell LiPo batterij, dat betekent dat de batterij uit drie kleinere, in serie geschakelde batterijtjes bestaat van elk 3,7v. Het totale voltage van de batterij is dus 11,1v. Dit is alleen de spanning als de batterij leeg is. Als je de batterij helemaal oplaadt, dan wordt het voltage hoger. Tot rond de 12,6v. Dit zorgt voor een probleem, want een wisselende spanning is niet goed voor de componenten, sommige onderdelen zullen zelfs helemaal niet meer functioneren.
+
+Daarom maken wij gebruik van een zogeheten “buck-converter”, dit is een klein circuit die het wisselende voltage van de batterij omzet in een stabiele 5v. Met die 5v kunnen we de Arduino, servo en EMG-sensor stroom geven. De buck-converter is met blauw omcirkeld in de afbeelding. Zie de onderdelenlijst voor het model wat wij gebruikt hebben.  
+
+ 
+
+Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de robotarm. De microcontroller. Wij gebruiken een Arduino Nano, want we hebben al veel ervaring met arduino’s, en de Nano is perfect voor onze doeleinden. Naast de nano zit een OLED-schermpje en een RGB led, dit is handig voor debuggen en informatie geven.
+
+ 
+
+Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakkelijk om dit te doen, want in KiCad staat precies hoe alles verbonden moest worden. Wel is het erg tijdrovend, en moet je goed opletten.
 
 
 
