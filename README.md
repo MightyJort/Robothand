@@ -62,7 +62,8 @@ De kern van deze sensor is de LM324N, dit is een chip die de stroomsterkte verst
 
 In het circuit zit ook een potentiometer, met deze variabele weerstand kan je de gevoeligheid van de sensor aanpassen. Dit noem je een voltage divider. Stroom kiest altijd de weg van de minste weerstand. Als je de weerstand van de potentiometer helemaal op 0 zit, zal dus alle stroom daardoorheen lopen. Het signaal wordt dan verder niet versterkt. Als je de potentiometer helemaal dicht draait, dan wordt de weerstand 100k Ohm. Nu zal alle stroom door de amplifier lopen, want dat is nu de weg van het minste weerstand.
 
- 
+ ![image](https://user-images.githubusercontent.com/47349377/157280833-e7294938-d227-4f64-9803-8d3024b0b9f6.png)
+
 
 Daarnaast is er ook een manier nodig om de arm van stroom te voorzien. We gebruiken een 3 cell LiPo batterij, dat betekent dat de batterij uit drie kleinere, in serie geschakelde batterijtjes bestaat van elk 3,7v. Het totale voltage van de batterij is dus 11,1v. Dit is alleen de spanning als de batterij leeg is. Als je de batterij helemaal oplaadt, dan wordt het voltage hoger. Tot rond de 12,6v. Dit zorgt voor een probleem, want een wisselende spanning is niet goed voor de componenten, sommige onderdelen zullen zelfs helemaal niet meer functioneren.
 
@@ -78,10 +79,10 @@ Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakke
 <h1>Hoe ver zijn we gekomen?</h1>
 asdasdf
 
-Bronnen:
+<h1>Bronnen:</h1>
 Bij ons onderzoek naar de mogelijkheden voor het designen is er gebruikt gemaakt van verschillende bronnen op het wereldwijde web. Deze zijn ingezet als volgt: ter inspiratie, ter informatie zoals bijvoorbeeld bepaalde code die noodzakelijk is voor het correct kunnen besturen van sensoren, natuurlijk als informatie en tot slot een expert op het gebied van PCB design. Bij deze laatst genoemde bron beginnend vergt dit mogelijk wat toelichting. Bij het gehele proces van dit design werd er geconcludeerd dat gezien de geringe ruimte in het hele ontwerp er zo optimaal  mogelijk gebruik moest worden gemaakt van de beschikbare ruimte. Gezien het feit dat kabels en sensoren vaak grote hoeveelheden aan ruimte innemen was de keuze tot het zelf maken van een PCB een logische keuze. Bij dit design heeft VWO 5 leerling Yousif Al Fraji ontzettend geholpen zoals ook te lezen is geweest in het dankwoord. Tevens wordt Al Fraji wederom genoemd als bron vanwege zijn goede en fijne hulp bij dit zeer complexe onderdeel van het design. Daarnaast zijn er zoals reeds genoemd verschillende bronnen van nut geweest voor het daadwerkelijke eindproduct van dit profielwerkstuk.
 
-Bijlagen:
+<h1>Bijlagen:</h1>
 Tijdens dit onderzoek zijn er verschillende documenten gecreëerd omtrent planning, logboek, partslist en anderen documenten. De lijst hieronder betreft documenten die van nut zijn geweest bij het verloop van dit project: 
 Lijst met gebruikte onderdelen:
 https://docs.google.com/spreadsheets/d/10QRhJqZB1pEGDb7owYDHSu0jurNjSL3_3ehxey0RWvA/edit#gid= 
