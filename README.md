@@ -69,6 +69,7 @@ Daarnaast is er ook een manier nodig om de arm van stroom te voorzien. We gebrui
 
 Daarom maken wij gebruik van een zogeheten “buck-converter”, dit is een klein circuit die het wisselende voltage van de batterij omzet in een stabiele 5v. Met die 5v kunnen we de Arduino, servo en EMG-sensor stroom geven. De buck-converter is met blauw omcirkeld in de afbeelding. Zie de onderdelenlijst voor het model wat wij gebruikt hebben.  
 
+![image](https://user-images.githubusercontent.com/47349377/157282483-e3c9d383-9163-4448-8de7-6935b98fc0ec.png) 
  
 Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de robotarm. De microcontroller. Wij gebruiken een Arduino Nano, want we hebben al veel ervaring met arduino’s, en de Nano is perfect voor onze doeleinden. Naast de nano zit een OLED-schermpje en een RGB led, dit is handig voor debuggen en informatie geven.
 
