@@ -52,7 +52,7 @@ Het sterkste punt aan Fusion is misschien nog wel de mogelijkhneid om 'terug in 
 De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd.  
 
 <h2>Van computermodel naar fysiek</h2>
-De belangrijkste tool die we gebruikt hebben om het computermodel naar iets fysieks te krijgen is de 3d-printer. 
+Op het moment dat je een computermodel hebt heb je in feite nog niets wat bruikbaar is als daadwerkelijke robot hand. Om dit model daadwerkelijk om te zetten in een bruikbaar fysiek iets is er gebruik gemaakt van een 3D-printer. Dit recent opgekomen nieuwe stukje technologie is de enige reden waardoor het in eerste instantie überhaupt mogelijk was om dit project te kunnen starten. Op het moment dat er een voltooid 3 dimensionaal oftewel een computer model is kan deze gereed gemaakt worden voor de volgende stap: het omzetten van dit computermodel naar iets wat een 3D-printer kan begrijpen om de hand te maken. 
 
 ![image](https://user-images.githubusercontent.com/47349377/157282636-f4a6aedf-24b4-4b5e-a4a3-75590debda19.png)
 
