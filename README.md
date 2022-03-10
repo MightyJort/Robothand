@@ -3,9 +3,6 @@
 ![image](https://user-images.githubusercontent.com/47349377/157235040-e2ceb9c2-f949-4b6d-8191-68a79db0d962.png)
   
 
-<h1>Inhoudsopgave</h1>
-
-
 <h1>Inleiding</h1>
 
 Welkom!
@@ -14,7 +11,9 @@ In deze README file staat alles wat er nodig is om dezelfde stappen te zetten al
 
   <h2>Het idee, de onderzoeksvraag en de ontwerpcyclus</h2>
   
-De onderzoeksvraag van het project luidt als volgt: "Kan er met beperkte kennis en middelen een robothand ontwikkeld worden aan de hand van de ontwerpcyclus?"
+De onderzoeksvraag van het project luidt als volgt: 
+>**"Kan er met beperkte kennis en middelen een robothand ontwikkeld worden aan de hand van de ontwerpcyclus?"**
+
 Bij het lezen van deze onderzoeksvraag komen er direct twee vragen naar boven. De eerste vraag is waarschijnlijk: "Wat moet ik me voorstellen bij zo'n robothand"? 
 
 De inspiratie van het bouwen van een robothand komt van Jens. Hij zit bij ons op school en mist zijn linkerhand vanaf ongeveer zijn pols. Hij vroeg ooit een aantal jaren terug: "Kunnen jullie niet iets van een hand voor mij maken?" Deze opmerking zijn we nooit vergeten, en toen we een onderwerp voor ons PWS moesten verzinnen, hoefden we niet lang na te denken. We wilden graag een robotische arm maken die een deel van de functionaliteit van een menselijke arm had. 
@@ -23,7 +22,10 @@ Het idee was er dus. Maar hoe pak je zo'n enorm project aan? Nu komt de tweede v
 
 De ontwerpcyclus is een aanpakmethode; een stuk gereedschap waarmee je een groot project tot kleinere, haalbare stukjes hakt. Het is een enorm krachtige methode, en we raden iedereen aan om het te gebruiken. Het zit namelijk zo: 
 Bij de ontwerpcyclus onderga je telkens opnieuw dezelfde stappen, maar elke keer heb je weer meer kennis die je in de vorige ronde geleerd hebt. 
-Je maakt dus een sprint, dan ga je één keer de ontwerpcyclus rond. Je maakt eisen, een ontwerpvoorstel en daarna realiseer je dat ontwerp. Daarna ga je dat ontwerp evalueren, er zijn altijd wel dingen die beter of anders kunnen, maar de enige manier hoe je daarachter komt is door het te doen. 
+Je maakt dus een sprint, dan ga je één keer de ontwerpcyclus rond. Je maakt eisen, een ontwerpvoorstel en daarna realiseer je dat ontwerp. Daarna ga je dat ontwerp evalueren. Er zijn altijd wel dingen die beter of anders kunnen, maar de enige manier hoe je daarachter komt is door het te doen. 
+
+![Ontwerpcyclus drawio](https://user-images.githubusercontent.com/47349377/157762133-e9a15eaf-9dd3-4ed7-bc91-eafa3f106338.png)
+
 
 Na die evaluatie begin je weer opnieuw, meestal pas je de eisen iets aan, omdat je de vorige sprint geleerd hebt dat sommige dingen juist wel of niet haalbaar zijn. Daarna doe je een voorstel om aan die eisen te voldoen, terwijl je bedenkt wat er tijdens de vorige sprint niet werkte. Als je nu weer een volgende poging doet om je ontwerp te maken, zal het vaak beter gaan, omdat je de vorige sprint allemaal dingen geleerd hebt. Na het evalueren van het nieuwe ontwerp begin je weer opnieuw. 
 Nu heb je een ontwerpcyclus afgelegd.
@@ -42,23 +44,34 @@ Een interessante eis zat hem ook in de aansturing van de hand. We wilden graag d
 
 <h1>Het ontwerp</h1>
 
-Het ontwerp van de hele hand is gemaakt in Autodesks Fusion 360. Het voordeel an het ontwerp eerst maken in de computer, en daarna pas in het echt, is dat je er heel veel fouten in de computer al uit kan halen. 
+Het ontwerp van de hele hand is gemaakt in Autodesks Fusion 360. Het voordeel an het ontwerp eerst maken in de computer, en daarna pas in het echt, is dat je er heel veel fouten in de computer al uit kan halen.
 
-Er bestaan natuurlijk heel veel everschillende CAD-programma's (Computer Aided Design), denk aan FreeCAD of tinkerCAD. Wij hebben ekozen voor Fusion 360 door de gratis education license, en geweldige collabration mogelijkheden. Je kan als team een project opzetten, en vervolgens kan iedereen in dat team gelijktijdig binnen hetzelfde project werken.
+![image](https://user-images.githubusercontent.com/47349377/157762916-f9457d4d-1d89-49f6-8b4b-5cd0e0918aba.png)
+
+
+Er bestaan natuurlijk heel veel everschillende CAD-programma's (Computer Aided Design), denk aan FreeCAD of tinkerCAD. Wij hebben gekozen voor Fusion 360 door de gratis education license, en geweldige collabration mogelijkheden. Je kan als team een project opzetten, en vervolgens kan iedereen in dat team gelijktijdig binnen hetzelfde project werken.
 Ook heeft Fusion hele goede integratie met Cura, dat is het programma wat wij gebruiken om onderdelen te 3d-printen. Met één druk op de knop kunnen we het ontwerp naar de 3d printer of lasersnijder sturen. 
 
 Het sterkste punt aan Fusion is misschien nog wel de mogelijkhneid om 'terug in de tijd' te gaan. Onderaan het programma staat een timeline, met die timeline kan je stappen die je eerder gedaan hebt heel gemakkelijk aanpassen. Kleine veranderingen maken aan het ontwerp is op die manier heel gemakkelijk. 
 
-De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd.  
+![image](https://user-images.githubusercontent.com/47349377/157762695-06fbd6f1-50ac-412f-88ea-90478da920bc.png)
+
+
+De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd. 
+
+![image](https://user-images.githubusercontent.com/47349377/157763942-4d28946f-ee48-4bb0-9735-4e876927ffa4.png)
+
 
 <h2>Van computermodel naar fysiek</h2>
-Op het moment dat je een computermodel hebt heb je in feite nog niets wat bruikbaar is als daadwerkelijke robot hand. Om dit model daadwerkelijk om te zetten in een bruikbaar fysiek iets is er gebruik gemaakt van een 3D-printer. Dit recent opgekomen nieuwe stukje technologie is de enige reden waardoor het in eerste instantie überhaupt mogelijk was om dit project te kunnen starten. Op het moment dat er een voltooid 3 dimensionaal oftewel een computer model is kan deze gereed gemaakt worden voor de volgende stap: het omzetten van dit computermodel naar iets wat een 3D-printer kan begrijpen om de hand te maken. De volgende stap is het gebruik van het programma Cura. Cura is een zogeheten slicer. Wat dit programma doet is het 3D ontworpen model in laagjes opdelen. Als je ooit naar een 3D print hebt gekeken kan je zien dat de 3D print uit laagjes bestaat. De zogeheten slicer zet dus een 3D model om in allemaal kleine laagjes die geprint kunenn worden. Het model wordt van boven naar beneden opgebouwd uit laagjes. Tevens verteld dit programma de temperaturen voor de nozzle(waar het plastic meegeprint wordt) en van bijvoorbeeld de printplaat. Ook verteld dit programma de locatie waar de nozzzle heen moet bewegen en wanneer. Dit eenvoudig te gebruiken programma doet al het werk voor ons en en zorgt ervoor dat we mooie 3D prints krijgen.
+Op het moment dat je een computermodel hebt, is er alleen nog niets wat daadwerkelijk te gebruiken valt. Om dit model daadwerkelijk om te zetten in een bruikbaar fysiek model is er gebruik gemaakt van een 3D-printer. Dit recent opgekomen nieuwe stukje technologie is de enige reden waardoor het in eerste instantie überhaupt mogelijk was om dit project te kunnen starten. Op het moment dat er een voltooid 3 dimensionaal oftewel een computer model is kan deze gereed gemaakt worden voor de volgende stap: het omzetten van dit computermodel naar iets wat een 3D-printer kan begrijpen om de hand te maken. De volgende stap is het gebruik van het programma Cura. Cura is een zogeheten slicer. Wat dit programma doet is het 3D ontworpen model in laagjes opdelen. Als je ooit naar een 3D print hebt gekeken kan je zien dat de 3D print uit laagjes bestaat. De zogeheten slicer zet dus een 3D model om in allemaal kleine laagjes die geprint kunenn worden. Het model wordt van boven naar beneden opgebouwd uit laagjes. Tevens verteld dit programma de temperaturen voor de nozzle(waar het plastic meegeprint wordt) en van bijvoorbeeld de printplaat. Ook verteld dit programma de locatie waar de nozzzle heen moet bewegen en wanneer. Dit eenvoudig te gebruiken programma doet al het werk voor ons en en zorgt ervoor dat we mooie 3D prints krijgen.
 
 ![image](https://user-images.githubusercontent.com/47349377/157282636-f4a6aedf-24b4-4b5e-a4a3-75590debda19.png)
 
 
 <h2>De aansturing</h2>
 De robothand wordt aangestuurd door ons zelfontworpen PCB, eerst is het hele schematic getekend in KiCad. Het meest opvallend is het opAmp circuit, dit circuit is nodig om de elektrische schokjes van je arm dusdanig te versterken dat het te meten valt. Dit is dus onze zelfgemaakt sensor. Het ontwerp van de sensor hebben we niet zelf bedacht, maar komt van het opensource project “openEMG”.
+
+![image](https://user-images.githubusercontent.com/47349377/157765367-23037f8e-55a2-4ec8-afa7-d21fb6aca078.png)
 
 De kern van deze sensor is de LM324N, dit is een chip die de stroomsterkte versterkt. Zo’n chip noem je een opAmp. Eigenlijk is deze chip niet één opAmp, maar wel vier. Het signaal wordt dus wel vier keer versterkt. Een opAmp heeft twee inputs, maar maar één input, dit komt doordat de opAmp alleen maar het verschil tussen de twee inputs versterkt. Dit moet op deze manier om storingen te voorkomen. De datastroom loopt in feite zoals de rode lijn in de afbeelding.
 
