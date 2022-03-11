@@ -57,13 +57,15 @@ Het sterkste punt aan Fusion is misschien nog wel de mogelijkhneid om 'terug in 
 ![image](https://user-images.githubusercontent.com/47349377/157762695-06fbd6f1-50ac-412f-88ea-90478da920bc.png)
 
 
-De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd. 
+De kracht van Fusion zit hem ook in het testen. Het kost handenvol tijd als je elk ontwerp eerst moet 3d-printen, en dan pas kan testen. In Fusion zie je precies of modellen in elkaar passen en hoe het zou gaan moeten bewegen. Dit is ongelooflijk waardevol, want het wint heel veel tijd. Als iets in Fusion past, dan past het negen van de tien keer ook in het echt. 
 
 ![image](https://user-images.githubusercontent.com/47349377/157763942-4d28946f-ee48-4bb0-9735-4e876927ffa4.png)
 
 
 <h2>Van computermodel naar fysiek</h2>
-Op het moment dat je een computermodel hebt, is er alleen nog niets wat daadwerkelijk te gebruiken valt. Om dit model daadwerkelijk om te zetten in een bruikbaar fysiek model is er gebruik gemaakt van een 3D-printer. Dit recent opgekomen nieuwe stukje technologie is de enige reden waardoor het in eerste instantie überhaupt mogelijk was om dit project te kunnen starten. Op het moment dat er een voltooid 3 dimensionaal oftewel een computer model is kan deze gereed gemaakt worden voor de volgende stap: het omzetten van dit computermodel naar iets wat een 3D-printer kan begrijpen om de hand te maken. De volgende stap is het gebruik van het programma Cura. Cura is een zogeheten slicer. Wat dit programma doet is het 3D ontworpen model in laagjes opdelen. Als je ooit naar een 3D print hebt gekeken kan je zien dat de 3D print uit laagjes bestaat. De zogeheten slicer zet dus een 3D model om in allemaal kleine laagjes die geprint kunenn worden. Het model wordt van boven naar beneden opgebouwd uit laagjes. Tevens verteld dit programma de temperaturen voor de nozzle(waar het plastic meegeprint wordt) en van bijvoorbeeld de printplaat. Ook verteld dit programma de locatie waar de nozzzle heen moet bewegen en wanneer. Dit eenvoudig te gebruiken programma doet al het werk voor ons en en zorgt ervoor dat we mooie 3D prints krijgen.
+Op het moment dat je een computermodel hebt, is er alleen nog niets wat daadwerkelijk te gebruiken valt. Om dit model daadwerkelijk om te zetten in een bruikbaar fysiek model is er gebruik gemaakt van een 3D-printer. Dit recent opgekomen nieuwe stukje technologie is de enige reden waardoor het überhaupt mogelijk was om dit project te kunnen starten. Op het moment dat er een voltooid computermodel is kan deze gereed gemaakt worden voor de volgende stap: het omzetten van dit computermodel naar iets wat een 3D-printer kan begrijpen om de hand te maken. De volgende stap is het gebruik van het programma Cura. Cura is een zogeheten slicer. Wat dit programma doet is het 3D ontworpen model in laagjes opdelen. Als je ooit naar een 3D print hebt gekeken kan je zien dat de 3D print uit laagjes bestaat. De zogeheten slicer zet dus een 3D model om in allemaal kleine laagjes die geprint kunenn worden. Het model wordt van boven naar beneden opgebouwd uit laagjes. Tevens verteld dit programma de temperaturen voor de nozzle (waar het plastic meegeprint wordt) en van bijvoorbeeld de printplaat. Ook verteld dit programma de locatie waar de nozzzle heen moet bewegen en wanneer. Dit eenvoudig te gebruiken programma doet al het werk voor ons en en zorgt ervoor dat we mooie 3D prints krijgen.
+
+![image](https://user-images.githubusercontent.com/47349377/157843826-89c39e22-ad80-4933-ad80-643fe074806d.png)
 
 ![image](https://user-images.githubusercontent.com/47349377/157282636-f4a6aedf-24b4-4b5e-a4a3-75590debda19.png)
 
@@ -82,14 +84,14 @@ In het circuit zit ook een potentiometer, met deze variabele weerstand kan je de
 
 Daarnaast is er ook een manier nodig om de arm van stroom te voorzien. We gebruiken een 3 cell LiPo batterij, dat betekent dat de batterij uit drie kleinere, in serie geschakelde batterijtjes bestaat van elk 3,7v. Het totale voltage van de batterij is dus 11,1v. Dit is alleen de spanning als de batterij leeg is. Als je de batterij helemaal oplaadt, dan wordt het voltage hoger. Tot rond de 12,6v. Dit zorgt voor een probleem, want een wisselende spanning is niet goed voor de componenten, sommige onderdelen zullen zelfs helemaal niet meer functioneren.
 
-Daarom maken wij gebruik van een zogeheten “buck-converter”, dit is een klein circuit die het wisselende voltage van de batterij omzet in een stabiele 5v. Met die 5v kunnen we de Arduino, servo en EMG-sensor stroom geven. De buck-converter is met blauw omcirkeld in de afbeelding. Zie de onderdelenlijst voor het model wat wij gebruikt hebben.  
+Daarom maken wij gebruik van een zogeheten “buck-converter”, dit is een klein circuit die het wisselende voltage van de batterij omzet in een stabiele 5v. Met die 5v kunnen we de Arduino, servo en EMG-sensor stroom geven. De buck-converter is met rood omcirkeld in de afbeelding. Zie de onderdelenlijst voor het model wat wij gebruikt hebben.  
 
 ![image](https://user-images.githubusercontent.com/47349377/157282483-e3c9d383-9163-4448-8de7-6935b98fc0ec.png) 
  
-Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de robotarm. De microcontroller. Wij gebruiken een Arduino Nano, want we hebben al veel ervaring met arduino’s, en de Nano is perfect voor onze doeleinden. Naast de nano zit een OLED-schermpje en een RGB led, dit is handig voor debuggen en informatie geven.
+Helemaal rechts op het PCB zie je (in geel omcirkeld) het ‘hart’ van de aansturing. De microcontroller. Wij gebruiken een Arduino Nano, want we hebben al veel ervaring met arduino’s, en de Nano is perfect voor onze doeleinden. Naast de nano zit een OLED-schermpje en een RGB led, dit is handig voor debuggen en informatie geven.
 
  
-Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakkelijk om dit te doen, want in KiCad staat precies hoe alles verbonden moest worden. Wel is het erg tijdrovend, en moet je goed opletten.
+Alle onderdelen zijn daarna handmatig aan elkaar gesoldeerd. Het is best gemakkelijk om dit te doen, want in KiCad staat precies hoe alles verbonden moest worden. Wel is het erg tijdrovend, en moet je goed opletten. Let er ook op om goede kwaliteit soldeertin te kopen, met de redelijk hoeveelheid flux. Dit maakt het solderen veel makkelijker.
 
 
 <h1>Hoe ver zijn we gekomen?</h1>
