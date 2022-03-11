@@ -122,7 +122,6 @@ De meest duidelijke stap die we nu kunnen zetten is het toevoegen van de duim. W
 
 Wij willen graag wat mensen bedanken. We hebben de mogelijkheid gehad een supertof profielwerkstuk te maken, en dit was niet mogelijk geweest zonder bepaalde mensen. Allereerst is het natuurlijk op zijn plaats om iedereen te bedanken die dit verslag gelezen heeft, het gehele project gevolgd heeft, interesse heeft getoond of geïnspireerd is geraakt. 
 Daarnaast is het op zijn plaats om een aantal personen persoonlijk te bedanken. Dit zijn personen zonder diens hulp dit ontwerp niet mogelijk was geweest. Natuurlijk beginnend bij onze profielwerkstukbegeleider Dhr. Van Beekum. Wij zijn meneer van Beekum ontzettend dankbaar voor alle tijd, energie en moeite die hij in dit project heeft gestopt om ons te helpen en te begeleiden om dit project tot een geslaagd einde te brengen. De volgende persoon die we graag willen bedanken is Dhr. Smith. Ontzettend bedankt voor de uren die we hebben mogen spenderen in het Sciencelab, en de materialen die we daar tot onze beschikking hebben. Ook willen we Yousif bedanken, want hij heeft ons heel veel geholpen met electrical engineering die nodig was voor het ontwerp van het PCB. Tot slot gaat onze dank uit naar iedereen die afgelopen tijd op welke manier dan ook toch betrokken is geweest bij dit project en het project verder heeft geholpen. 
-![image](https://user-images.githubusercontent.com/47349377/157854555-3c600ca0-2305-4a6e-bfd3-49f94abbf6a7.png)
 
 
 <h1>Bronnen:</h1>
