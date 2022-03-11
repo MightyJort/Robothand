@@ -5,6 +5,18 @@
 ![image](https://user-images.githubusercontent.com/47349377/157852345-a876e166-0bc0-43f0-bb4f-e2fe1d544e6e.png)
 
 
+# Inhoudsopgave
+- [Inleiding](https://github.com/MightyJort/Robothand#inleiding)
+- [Het idee, de onderzoeksvraag, en de ontwerpcyclus](https://github.com/MightyJort/Robothand#de-eisen)
+- [De eisen]()
+- [Het ontwerp](https://github.com/MightyJort/Robothand#het-ontwerp)
+- [Van computer model naar fysiek](https://github.com/MightyJort/Robothand#van-computermodel-naar-fysiek)
+- [De aansturing](https://github.com/MightyJort/Robothand#de-aansturing)
+- [Hoe ver zijn we gekomen](https://github.com/MightyJort/Robothand#hoe-ver-zijn-we-gekomen)
+- [Dankwoord](https://github.com/MightyJort/Robothand#-dankwoord)
+- [Bronnen](https://github.com/MightyJort/Robothand#hoe-ver-zijn-we-gekomen)
+- [Bijlagen](https://github.com/MightyJort/Robothand#bijlagen)
+
   
 
 <h1>Inleiding</h1>
@@ -105,6 +117,8 @@ Maar werkt de hand goed genoeg om in het dagelijks leven te gebruiken?
 Nee, zeker niet. Maar dat doel was in de paar maanden die we hadden ook niet goed haalbaar. 
 
 De meest duidelijke stap die we nu kunnen zetten is het toevoegen van de duim. Waar waren we tot nu toe nog niet aan toe gekomen, en de duim toevoegen is ook goed te doen. Wat ook nog mist is de bevestiging van de hand aan de rest van arm, en een manier om het pcb aan de hand te verbinden. Dit zijn allemaal onderdelen die goed haalbaar zijn, maar slechts veel tijd kosten. We waren er simpelweg nog niet aan toe gekomen. Als iemand dit project ooit voortzet, zijn dit goede stappen die gezet kunnen worden. 
+
+<h1>Dankwoord</h1>
 
 <h1>Bronnen:</h1>
 Bij ons onderzoek naar de mogelijkheden voor het designen is er gebruikt gemaakt van verschillende bronnen op het internet. Deze hebben we gebruik als informatie en inspiratie. Dit was het eerste project waarbij we ooit een PCB gebruikt hebben, en hier haddden we iemand met kennis voor nodig. Gelukkig stond Yousif Alfraji er voor open om onze vragen te beantwoorden en ons te helpen. Daarnaast zijn er verschillende bronnen van nut geweest voor het daadwerkelijke eindproduct van dit profielwerkstuk. Er stond bijvoorbeeld een kraampje op de makerfaire in Eindhoven waar we veel inspiratie vandaan konden halen, en in google afbeeldingen hebben we heel veel verschillende ontwerpen kunnen vergelijken. De gehele bronnenlijst staat bij de bestanden. 
