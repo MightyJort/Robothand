@@ -13,7 +13,7 @@
 - [Van computer model naar fysiek](https://github.com/MightyJort/Robothand#van-computermodel-naar-fysiek)
 - [De aansturing](https://github.com/MightyJort/Robothand#de-aansturing)
 - [Hoe ver zijn we gekomen](https://github.com/MightyJort/Robothand#hoe-ver-zijn-we-gekomen)
-- [Dankwoord](https://github.com/MightyJort/Robothand#-dankwoord)
+- [Dankwoord](https://github.com/MightyJort/Robothand#-dankwoord-)
 - [Bronnen](https://github.com/MightyJort/Robothand#hoe-ver-zijn-we-gekomen)
 - [Bijlagen](https://github.com/MightyJort/Robothand#bijlagen)
 
